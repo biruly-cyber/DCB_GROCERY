@@ -60,7 +60,6 @@ app.use("/api/v1/khatapayment", khataCustomerPaymentHistory)
 
 //default route
 app.get("/", (req, res)=>{
-    res.setHeader("Access-Control-Allow-Credentials","true")
     res.send("nice working")
 })
 
