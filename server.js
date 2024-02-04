@@ -7,5 +7,5 @@ connectDB();
 
 
 app.listen(PORT, ()=>{
-    console.log(`server is wprking on port ${PORT} in ${process.env.NODE_ENV} mode `);  
+    console.log(`server is wprking on port ${PORT}`);  
 })
